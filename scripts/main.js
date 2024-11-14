@@ -10,7 +10,6 @@ function requestXML(){
     if (this.readyState == 4) {
         document.getElementById("response").innerHTML =
         this.responseText
-        
     }
 }
 navigator.geolocation.getCurrentPosition(displayCoordinates)
